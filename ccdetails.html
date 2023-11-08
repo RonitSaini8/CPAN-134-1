@@ -1,5 +1,3 @@
-ccdetails
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -21,7 +19,7 @@ ccdetails
             background: bisque;
             }
             .tableone {
-            border: 10px solid darkkhaki;
+            border: 6px solid darkkhaki;
             border-radius: 5px 5px 5px 5px;
             box-shadow: 5px 5px 5px 5px silver;
             }
@@ -43,21 +41,21 @@ ccdetails
 
 <form>
 
-<fieldset>
+<fieldset class="tableone">
 <legend>Credit Card Details</legend>
 
 <label for="cct">Card Type: </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<select name ="ccn" id="ccn" required>
+<select name ="ccn" id="ccn" required class="box">
 <option value="cred">Credit</option>
 <option value="deb">Debit</option>
 <option value="pp">PayPal</option>
 </select> <br><br>
 
 <label for="ccn">Card Number: </label> &nbsp;&nbsp;
-<input type="number" id="ccn" name="ccn" minlength="16" maxlength="16" placeholder="XXXX-XXXX-XXXX-XXXX" required> <br><br>
+<input type="number" id="ccn" name="ccn" minlength="16" maxlength="16" placeholder="XXXX-XXXX-XXXX-XXXX" class="box"> <br><br>
 
 <label for="expdate">Expiration Date: </label>
-<select name="month" id="month" required>
+<select name="month" id="month" required class="box">
 <option value="jan">January</option>
 <option value="feb">February</option>
 <option value="mar">March</option>
@@ -71,7 +69,7 @@ ccdetails
 <option value="Nov">November</option>
 <option value="Dec">December</option>
 </select>
-<select>
+<select class="box">
 <option value="2023">2023</option>
 <option value="2024">2024</option>
 <option value="2025">2025</option>
@@ -79,23 +77,23 @@ ccdetails
 <option value="2027">2027</option>
 </select> <br><br>
 
-<label for="ssn">SSN: </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<input type="number" id="ssn" name="ssn" placeholder="XXX" minlength="3" maxlength="3" required> <br><br>
+<label for="ssn">SSN: </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="number" id="ssn" name="ssn" placeholder="XXX" minlength="3" maxlength="3" required class="box"> <br><br>
 
 </form>
 
 </fieldset><br><br><br>
 
 <center>
-    <style>table, th, td {border:1px solid black}</style>
-    <table>
-    <tr>
-    <td><a href="./emailnotifications.html"><input type="submit" id="go" name="go" value="Continue"></a>
-    </tr>
-    </table>
+<a href="./emailnotifications.html"><input type="submit" id="go" name="go" value="Continue" class="box"></a>
 </center>
 
 <center>
+<p>Adel</p>
+</center>
+
+</body>
+</html>
 <p>Adel</p>
 </center>
 
